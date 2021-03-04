@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/body_bg.png');
+}
+.top{
+    background-color: white;
+    height: 60px;
+    margin-bottom: -20px;
+    border-bottom: 1px solid lightgray;
+}
+.top .logos{
+    width: 60%;
+    margin: auto ;
+}
+.navbar{
+    height: 80px;
+    border-bottom: solid 2px #dedede;
+    background-color: #f5f5f5 !important;
+    margin-top: 20px;
+    padding-top: 10px;
+    
+}
+.navbar .navbarcontent{
+    width: 80%;
+    margin:20px auto;
+}
+.navbar .navbarcontent li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.navbar .navbarcontent li a{
+text-decoration: none;
+padding: 20px;
+background-color: transparent;
+color: gray;
+border-bottom: 2px solid #E3350D;;
+
+}
+.navbar .navbarcontent li.orange a:hover{
+    background-color: rgb(218, 64, 37);
+    color: #fff;
+}
+.navbar .navbarcontent li.green a:hover{
+    background-color: rgb(45, 92, 7);
+    color: #fff;
+}
+.maincontent{
+    background-image: url("body_bg.png");
+
+}
+.part1{
+    width: 50%;
+    margin: 10px auto;
+}
+.content2 img {
+    width: 100%;
+}
+.content{
+    background-image: url("Images/container_bg.png");
+    border-image: url("bg-strip.jpg") 30 round;
+    
+}
+.content1{
+    margin: 15px 20px 15px 100px;
+}
+
+
+
+.footer{
+    width: 100%;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 0 0 16px;
+
+}
+.columns{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.column1 .column2 .column3{
+    width: 33%;
+}
+.columns li{
+    list-style: none;
+}
+.columns li a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 14px;
+    font-family: Arial, Helvetica, Robots,sans-serif sans-serif;
+}
+.columns li a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, Robots,sans-serif sans-serif;
+}
+.column1{
+    float: left;
+    margin: 5px;
+    padding: 10px;
+}
+.column2{
+    line-height: 1em;
+    width: 27.46%;
+    border-right: 2px solid #000;
+    margin-top: 1.75em;
+}
+.columns .column3{
+    display: flex;
+    margin-top: 80px;
+    
+    
+    
+}
